@@ -1,0 +1,435 @@
+/* Resets */
+/********************************** Common For All Pages******************************** */
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    color: rgb(241, 131, 4);
+    background-image: url("../images/bg.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-bottom: 30px; 
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    font-size: xx-large;
+    color: rgb(242, 85, 7);
+    width: 100%;
+    padding:10px;
+    margin-top: 0%;
+    margin-left: 30px;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    color: ff4d00;
+    width: 100%;
+    padding:10px;
+    margin-top: 0%;
+    margin-left: 30px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    text-align: justify;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+   
+}
+
+header{
+    
+    background-image: url("../images/background header.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+     color: #0e2431;
+     border-radius: 10px;
+     padding: 2px;
+     box-shadow: 0 10px 10px 0px #acd4f2;
+}
+
+.navbar{
+    position: relative;
+    color: #0e2431;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    transition: .05s ease;
+}
+
+footer {
+    font-family: lora;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: rgb(186, 221, 251);
+    padding: 1rem 0;
+    bottom: 0;
+    
+}
+
+#footer a{
+    color: #5c4bee;
+}
+
+/********************************** For Homepage/Index Page******************************** */
+.content{
+    display: flex;
+}
+
+.intro {
+    align-content: center;
+}
+
+.greeting {
+    align-content: center;
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff4d00;
+    
+}
+
+.name {
+    align-content: center;
+    font-size: 2em;
+    color: #fefefe;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.job {
+    font-size: 1em;
+    color: #4d7bf9;
+    font-style: italic;
+}
+
+#background {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+#about_img{
+    width: 15%;
+    height: 15%; 
+    padding: 20px;
+   border-radius: 30px;
+    float: left;
+}
+
+#container_homepage {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #fa6a04;
+    text-align: center;
+    padding:10px 20px;
+    padding-bottom: 20px;
+}
+
+
+#container_homepage .tagline {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.body_section{
+    display: flex;
+    flex-direction:row;
+    align-items:normal;
+    justify-content: left; 
+    gap: 5px; /* Adds space between columns */
+    padding: 5px; /* Adds padding around the section */  
+}
+
+#background figure p {
+    font-family: roboto;
+    font-size: medium;
+    width: 100%; /* Take full width of the figure */
+    max-width: 750px; /* Increase this to widen the text block (previously 300px) */
+    margin: 0 auto; /* Center the paragraph */
+    padding: 15px; /* Add padding to create more space around the text */
+    line-height: 1.5; /* Improve readability */
+}
+
+figure{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+
+.links {
+    display: inline-block;
+    background: #cc6d00;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links:hover {
+    background: #fbee00;
+}
+
+
+
+/********************************** For About Me Page******************************** */
+/* Similar to Homepage*/
+/* Using ID for Styling of details of Tez from About Me Page */
+#details{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: #cc6d00;
+    position:absolute;
+    left: 300px;
+    top: 200px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px #e4dcd3; 
+    border-radius: 15px;
+}
+
+#col{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 40%;
+    text-align: justify;
+    padding-right: 30px;
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+/********************************** For Projects Page******************************** */
+*{
+    box-sizing: border-box;
+
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for Audio Images */
+.container img{ 
+    max-width: 65%;
+    padding-right: 30px;
+    border-radius: 15px;
+    padding: 2px;
+    box-shadow:10px #000000;
+}
+
+
+/********************************** For Projects Page******************************** */
+
+
+h1{
+   color: floralwhite;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.5EM;
+   
+}
+
+#container{
+    width: 75%;
+    margin: auto;
+    
+    background-color: rgb(241, 186, 206);
+    /* border: 3px solid rgb(234, 21, 21); */
+}
+
+.caption{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 5%;
+}
+.row{
+    /* border: 4px solid rgb(21, 168, 60); */
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.coloumn{
+    float:left;
+    padding: 4px;
+    box-sizing: border-box;
+    width: 33.3%;
+    
+}
+
+img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20%;
+    padding: 2%;
+}
+
+.third{
+width: 33.3%;
+}
+
+
+.half{
+    width: 50%;
+}
+
+.quarter{
+width: 25%;
+}
+
+.full{
+    width: 100%;
+}
+
+img:hover {
+    opacity:30%;
+    transition: 1s;
+    filter:sepia(40%);
+    transform: scale(120%);
+}
+
+
+/********************************** For Contact Us Page******************************** */
+
+form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800; 
+    width: 40%;
+    float:left;
+    
+}
+
+label  {
+    font-family: "roboto", sans-serif;
+    display: block;
+    margin-left: 30px;
+    color: #ff4d00;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea  {
+    font-family: "roboto", sans-serif;
+    font-style: italic;
+    width: 400px;
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+textarea{
+    width: 400px;
+    height: 100px;    
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(249, 129, 0);
+    border: none;
+    border-radius: 6px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(246, 172, 135);
+    color: #fefefe;
+    box-shadow: 4px 4px 0 #ebeeee;
+}
+
+
+#contactiframe { 
+    float: right;
+    justify-content: center;
+    margin-right: 20px;
+    width: 800px;
+    height: 450px; 
+    padding-bottom: 60px;
+
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 20px; 
+    top:30px;
+}
+
+.logo img {
+    width: 12%; 
+    display: block; 
+}
+
+
+.nav-container {
+    
+background-color: rgb(0, 0, 0);
+  z-index: 1;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0}
+   
+
+nav {
+    display: flex;
+  flex-direction: row;
+  padding: 0 20px; 
+  justify-content: flex-end;
+  align-items: center; 
+  min-height: 60px;
+
+}
+
+nav a {
+    
+    color: rgb(248, 112, 53);
+    padding: 10px 15px; 
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+
