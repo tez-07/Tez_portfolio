@@ -413,9 +413,9 @@ background-color: rgb(0, 0, 0);
    
 
 nav {
-    display: flex;
+ display: flex;
   flex-direction: row;
-  padding: 0 20px; 
+  padding: 0 20px;  
   justify-content: flex-end;
   align-items: center; 
   min-height: 60px;
